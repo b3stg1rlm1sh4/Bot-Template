@@ -35,7 +35,7 @@ const help_cmd = {
     embed.setDescription(_);
 
     if(embed.description) message.channel.send(embed);
-    else message.reply(`that command doesn't exist!`);
+    else message.reply(`that category doesn't exist!`);
   },
   name: "help",
   details: "provides command support",
