@@ -46,7 +46,6 @@ bot.on('message', async message => {
      // bot will ignore other bots
     if (message.author.bot) return;
 
-    // check if user is using custom prefix or not
     let prefix = botcf.prefix;
     
     // ignores non-cmd messages and runs events
